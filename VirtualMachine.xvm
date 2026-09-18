@@ -1,0 +1,11 @@
+run.xml{
+<link rel="stylesheet" href="C-OS.iso">
+}
+run.cpp{
+ # <include> CMPLXML
+ cmp.xml(C-OS.iso);
+ cmp.log(C-OS.iso);
+ cmp.fle(cmp.xml);
+ cmp.add(cmp.xml;index.html);
+ cmp.exit
+}
